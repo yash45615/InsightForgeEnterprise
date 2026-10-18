@@ -1,0 +1,50 @@
+[
+  {
+    "chunk_id": "dea63e0591cdc4e7",
+    "source": "campaign_metrics.md",
+    "chunk_index": 0,
+    "text": "# Campaign Metrics Guide Impressions count how many times a campaign advertisement was displayed. Clicks count interactions with an advertisement. Conversions count the tracked desired actions attributed to a campaign. Click-through rate (CTR) is clicks divided by impressions. If impressions are zero, CTR should be reported as undefined rather than dividing by zero. Conversion rate is conversions divided by clicks. If clicks are zero, conversion rate is undefined. Cost per conversion is campaign spend divided by conversions. If conversions are zero, cost per conversion is undefined. These measures describe campaign activity."
+  },
+  {
+    "chunk_id": "c2526d3047704524",
+    "source": "campaign_metrics.md",
+    "chunk_index": 1,
+    "text": "These measures describe campaign activity. They do not, by themselves, prove that a campaign caused an increase in revenue."
+  },
+  {
+    "chunk_id": "f223480e6652bb43",
+    "source": "customer_analytics.md",
+    "chunk_index": 0,
+    "text": "# Customer Analytics Guide Customer segmentation groups customers with similar observed characteristics. Useful features can include purchase frequency, completed revenue, average transaction value, subscription fee, acquisition channel, and recency. A segment is a descriptive grouping, not a guaranteed prediction of future behavior. Segment names should be assigned only after reviewing the profile of each cluster. Customer lifetime value estimates the value a customer may generate over a specified horizon. Any estimate should document its time horizon and assumptions. Customer churn must be defined using a specific observation window and future outcome window."
+  },
+  {
+    "chunk_id": "e35db5a1a6e0f0c9",
+    "source": "customer_analytics.md",
+    "chunk_index": 1,
+    "text": "Customer churn must be defined using a specific observation window and future outcome window. Features used for prediction must be measured before the outcome window to prevent temporal data leakage."
+  },
+  {
+    "chunk_id": "663affae1c417dce",
+    "source": "responsible_ai.md",
+    "chunk_index": 0,
+    "text": "# Responsible AI and Evidence-Based Answers Responsible AI requires privacy protection, bias assessment, transparency, and careful use of evidence. Customer data should be minimized. Privacy means collecting, retaining, and exposing only the customer information necessary for a legitimate purpose. The demonstration knowledge base uses general guidance rather than real personal customer information. Analytics teams should assess bias across customer segments and relevant groups. A model or analysis may produce unfair outcomes when data is incomplete, unrepresentative, or affected by historical patterns."
+  },
+  {
+    "chunk_id": "51da8369c59ce78e",
+    "source": "responsible_ai.md",
+    "chunk_index": 1,
+    "text": "Findings should include relevant limitations and should not assume that every group is represented equally. Business answers should distinguish measured facts from assumptions and recommendations. When retrieved documents do not support an answer, the system should say that the available evidence is insufficient. It should not invent metrics, policies, or source quotations. Citations should identify the documents supporting important claims. Retrieval relevance does not guarantee that a document entails a claim. Generated answers require separate grounding and factuality evaluation."
+  },
+  {
+    "chunk_id": "dc836a2859437c57",
+    "source": "sentiment_evaluation.md",
+    "chunk_index": 0,
+    "text": "# Sentiment Model Evaluation Guide Evaluate a sentiment classifier using accuracy, precision, recall, F1-score, and a confusion matrix. Accuracy is the fraction of predictions that match the true labels. Precision measures how often predictions for a class are correct. Recall measures how many examples of a class are identified. The F1-score combines precision and recall. Macro F1 computes the F1-score independently for each class and averages the scores equally. It is useful when class balance matters. A confusion matrix compares true labels with predicted labels. Evaluation should include class-level metrics, dataset limitations, and examples of incorrect predictions."
+  },
+  {
+    "chunk_id": "30be26d36d568b63",
+    "source": "sentiment_evaluation.md",
+    "chunk_index": 1,
+    "text": "A held-out test set should not be used to select model parameters. Synthetic data can be easier than real customer feedback and may contain artificial patterns. Performance on synthetic examples is not evidence of real-world generalization."
+  }
+]

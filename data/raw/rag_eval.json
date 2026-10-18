@@ -1,0 +1,19 @@
+
+[
+  {
+    "query": "How do we calculate click-through rate?",
+    "expected_source": "campaign_metrics.md"
+  },
+  {
+    "query": "Why is future information leakage a problem in churn prediction?",
+    "expected_source": "customer_analytics.md"
+  },
+  {
+    "query": "What do macro F1 and a confusion matrix tell us?",
+    "expected_source": "sentiment_evaluation.md"
+  },
+  {
+    "query": "What should happen when retrieved evidence does not support an answer?",
+    "expected_source": "responsible_ai.md"
+  }
+]

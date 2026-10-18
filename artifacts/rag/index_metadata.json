@@ -1,0 +1,6 @@
+{
+  "model_name": "BAAI/bge-small-en-v1.5",
+  "chunk_count": 8,
+  "embedding_dimension": 384,
+  "normalized": true
+}

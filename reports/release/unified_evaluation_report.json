@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-10-18T07:34:58.935753+00:00",
+  "status": "PASS",
+  "release_allowed": true,
+  "evaluation": {
+    "dataset_size": 8,
+    "answerable_questions": 6,
+    "unanswerable_questions": 2,
+    "retrieval_top_k": 3
+  },
+  "retrieval_metrics": {
+    "hit_rate_at_k": 1.0,
+    "mean_reciprocal_rank": 1.0
+  },
+  "answer_metrics": {
+    "answerability_accuracy": 1.0,
+    "answer_rate_on_answerable": 1.0,
+    "abstention_recall_on_unanswerable": 1.0,
+    "expected_source_citation_rate": 0.8333333333333334,
+    "citation_presence_rate_on_answerable": 1.0,
+    "grounded_citation_rate": 1.0,
+    "mean_expected_term_coverage": 0.9166666666666666
+  },
+  "thresholds": {
+    "hit_rate_at_k": 0.9,
+    "mean_reciprocal_rank": 0.9,
+    "answerability_accuracy": 0.8,
+    "abstention_recall_on_unanswerable": 0.9,
+    "expected_source_citation_rate": 0.8,
+    "mean_expected_term_coverage": 0.5
+  },
+  "checks": [
+    {
+      "metric": "hit_rate_at_k",
+      "actual": 1.0,
+      "threshold": 0.9,
+      "passed": true
+    },
+    {
+      "metric": "mean_reciprocal_rank",
+      "actual": 1.0,
+      "threshold": 0.9,
+      "passed": true
+    },
+    {
+      "metric": "answerability_accuracy",
+      "actual": 1.0,
+      "threshold": 0.8,
+      "passed": true
+    },
+    {
+      "metric": "abstention_recall_on_unanswerable",
+      "actual": 1.0,
+      "threshold": 0.9,
+      "passed": true
+    },
+    {
+      "metric": "expected_source_citation_rate",
+      "actual": 0.833333,
+      "threshold": 0.8,
+      "passed": true
+    },
+    {
+      "metric": "mean_expected_term_coverage",
+      "actual": 0.916667,
+      "threshold": 0.5,
+      "passed": true
+    }
+  ],
+  "failed_checks": [],
+  "source_reports": {
+    "retrieval": "D:\\InsightForgeEnterprise\\reports\\rag\\quality_report.json",
+    "answer_quality": "D:\\InsightForgeEnterprise\\reports\\rag\\answer_quality_report.json"
+  },
+  "limitations": [
+    "Evaluation uses a small, hand-authored dataset.",
+    "Retrieval quality does not establish answer correctness.",
+    "Lexical expected-term coverage is not semantic correctness.",
+    "Citation grounding does not prove that cited sources entail every claim.",
+    "Release thresholds are configurable engineering policies, not industry standards.",
+    "Passing this gate does not establish production readiness."
+  ]
+}

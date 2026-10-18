@@ -1,0 +1,241 @@
+{
+  "created_at": "2026-10-18T07:34:14.567104+00:00",
+  "dataset_size": 8,
+  "answerable_questions": 6,
+  "unanswerable_questions": 2,
+  "answerability_accuracy": 1.0,
+  "answer_rate_on_answerable": 1.0,
+  "abstention_recall_on_unanswerable": 1.0,
+  "expected_source_citation_rate": 0.8333333333333334,
+  "citation_presence_rate_on_answerable": 1.0,
+  "grounded_citation_rate": 1.0,
+  "grounded_citation_cases": 6,
+  "mean_expected_term_coverage": 0.9166666666666666,
+  "results": [
+    {
+      "id": "eval-001",
+      "category": "business_metrics",
+      "expected_answerable": true,
+      "status": "evidence_found",
+      "answered": true,
+      "abstained": false,
+      "answerability_correct": true,
+      "expected_source": "campaign_metrics.md",
+      "cited_sources": [
+        "campaign_metrics.md"
+      ],
+      "evidence_sources": [
+        "campaign_metrics.md"
+      ],
+      "citation_grounding_applicable": true,
+      "citation_sources_are_grounded": true,
+      "expected_source_cited": true,
+      "expected_terms": [
+        "clicks",
+        "conversions"
+      ],
+      "matched_expected_terms": [
+        "clicks",
+        "conversions"
+      ],
+      "expected_term_coverage": 1.0,
+      "answer": "Conversion rate is conversions divided by clicks. [campaign_metrics.md#chunk-0] If clicks are zero, conversion rate is undefined. [campaign_metrics.md#chunk-0] Cost per conversion is campaign spend divided by conversions. [campaign_metrics.md#chunk-0]",
+      "abstention_reason": null
+    },
+    {
+      "id": "eval-002",
+      "category": "responsible_analytics",
+      "expected_answerable": true,
+      "status": "evidence_found",
+      "answered": true,
+      "abstained": false,
+      "answerability_correct": true,
+      "expected_source": "customer_analytics.md",
+      "cited_sources": [
+        "responsible_ai.md"
+      ],
+      "evidence_sources": [
+        "responsible_ai.md"
+      ],
+      "citation_grounding_applicable": true,
+      "citation_sources_are_grounded": true,
+      "expected_source_cited": false,
+      "expected_terms": [
+        "customer",
+        "segment"
+      ],
+      "matched_expected_terms": [
+        "customer"
+      ],
+      "expected_term_coverage": 0.5,
+      "answer": "Analytics teams should assess bias across customer segments and relevant groups. [responsible_ai.md#chunk-0]",
+      "abstention_reason": null
+    },
+    {
+      "id": "eval-003",
+      "category": "ml_evaluation",
+      "expected_answerable": true,
+      "status": "evidence_found",
+      "answered": true,
+      "abstained": false,
+      "answerability_correct": true,
+      "expected_source": "sentiment_evaluation.md",
+      "cited_sources": [
+        "sentiment_evaluation.md"
+      ],
+      "evidence_sources": [
+        "sentiment_evaluation.md"
+      ],
+      "citation_grounding_applicable": true,
+      "citation_sources_are_grounded": true,
+      "expected_source_cited": true,
+      "expected_terms": [
+        "precision",
+        "recall"
+      ],
+      "matched_expected_terms": [
+        "precision",
+        "recall"
+      ],
+      "expected_term_coverage": 1.0,
+      "answer": "Sentiment Model Evaluation Guide Evaluate a sentiment classifier using accuracy, precision, recall, F1-score, and a confusion matrix. [sentiment_evaluation.md#chunk-0]",
+      "abstention_reason": null
+    },
+    {
+      "id": "eval-004",
+      "category": "responsible_ai",
+      "expected_answerable": true,
+      "status": "evidence_found",
+      "answered": true,
+      "abstained": false,
+      "answerability_correct": true,
+      "expected_source": "responsible_ai.md",
+      "cited_sources": [
+        "responsible_ai.md"
+      ],
+      "evidence_sources": [
+        "responsible_ai.md"
+      ],
+      "citation_grounding_applicable": true,
+      "citation_sources_are_grounded": true,
+      "expected_source_cited": true,
+      "expected_terms": [
+        "bias",
+        "privacy"
+      ],
+      "matched_expected_terms": [
+        "bias",
+        "privacy"
+      ],
+      "expected_term_coverage": 1.0,
+      "answer": "Responsible AI and Evidence-Based Answers Responsible AI requires privacy protection, bias assessment, transparency, and careful use of evidence. [responsible_ai.md#chunk-0]",
+      "abstention_reason": null
+    },
+    {
+      "id": "eval-005",
+      "category": "business_metrics",
+      "expected_answerable": true,
+      "status": "evidence_found",
+      "answered": true,
+      "abstained": false,
+      "answerability_correct": true,
+      "expected_source": "campaign_metrics.md",
+      "cited_sources": [
+        "campaign_metrics.md"
+      ],
+      "evidence_sources": [
+        "campaign_metrics.md"
+      ],
+      "citation_grounding_applicable": true,
+      "citation_sources_are_grounded": true,
+      "expected_source_cited": true,
+      "expected_terms": [
+        "clicks",
+        "impressions"
+      ],
+      "matched_expected_terms": [
+        "clicks",
+        "impressions"
+      ],
+      "expected_term_coverage": 1.0,
+      "answer": "Click-through rate (CTR) is clicks divided by impressions. [campaign_metrics.md#chunk-0] Conversion rate is conversions divided by clicks. [campaign_metrics.md#chunk-0] If clicks are zero, conversion rate is undefined. [campaign_metrics.md#chunk-0]",
+      "abstention_reason": null
+    },
+    {
+      "id": "eval-006",
+      "category": "responsible_ai",
+      "expected_answerable": true,
+      "status": "evidence_found",
+      "answered": true,
+      "abstained": false,
+      "answerability_correct": true,
+      "expected_source": "responsible_ai.md",
+      "cited_sources": [
+        "responsible_ai.md"
+      ],
+      "evidence_sources": [
+        "responsible_ai.md"
+      ],
+      "citation_grounding_applicable": true,
+      "citation_sources_are_grounded": true,
+      "expected_source_cited": true,
+      "expected_terms": [
+        "privacy"
+      ],
+      "matched_expected_terms": [
+        "privacy"
+      ],
+      "expected_term_coverage": 1.0,
+      "answer": "Privacy means collecting, retaining, and exposing only the customer information necessary for a legitimate purpose. [responsible_ai.md#chunk-0] Analytics teams should assess bias across customer segments and relevant groups. [responsible_ai.md#chunk-0] The demonstration knowledge base uses general guidance rather than real personal customer information. [responsible_ai.md#chunk-0]",
+      "abstention_reason": null
+    },
+    {
+      "id": "eval-007",
+      "category": "unanswerable",
+      "expected_answerable": false,
+      "status": "insufficient_evidence",
+      "answered": false,
+      "abstained": true,
+      "answerability_correct": true,
+      "expected_source": null,
+      "cited_sources": [],
+      "evidence_sources": [],
+      "citation_grounding_applicable": false,
+      "citation_sources_are_grounded": null,
+      "expected_source_cited": false,
+      "expected_terms": [],
+      "matched_expected_terms": [],
+      "expected_term_coverage": null,
+      "answer": "I don't have enough relevant evidence in the available knowledge base to answer that reliably.",
+      "abstention_reason": "requested_year_not_supported"
+    },
+    {
+      "id": "eval-008",
+      "category": "unanswerable",
+      "expected_answerable": false,
+      "status": "insufficient_evidence",
+      "answered": false,
+      "abstained": true,
+      "answerability_correct": true,
+      "expected_source": null,
+      "cited_sources": [],
+      "evidence_sources": [],
+      "citation_grounding_applicable": false,
+      "citation_sources_are_grounded": null,
+      "expected_source_cited": false,
+      "expected_terms": [],
+      "matched_expected_terms": [],
+      "expected_term_coverage": null,
+      "answer": "I don't have enough relevant evidence in the available knowledge base to answer that reliably.",
+      "abstention_reason": "no_sentence_matches_query_terms"
+    }
+  ],
+  "limitations": [
+    "The dataset is small and hand-authored.",
+    "Lexical term coverage is not semantic answer correctness.",
+    "A citation matching retrieved evidence does not prove entailment.",
+    "Grounded citation rate only includes answers with parsed citations.",
+    "Answerability labels are evaluation assumptions, not universal truth.",
+    "Metrics should be reviewed per case before changing thresholds."
+  ]
+}

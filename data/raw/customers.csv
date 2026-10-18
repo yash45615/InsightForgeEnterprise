@@ -1,0 +1,501 @@
+customer_id,customer_name,email,signup_date,acquisition_channel,segment,region,monthly_fee,is_active
+1,Allison Hill,customer1@example.com,2026-09-20 07:33:32,Organic,Standard,East,76.33,False
+2,Noah Rhodes,customer2@example.com,2024-06-08 05:17:49,Email,Standard,West,27.31,False
+3,Angie Henderson,customer3@example.com,2024-12-27 10:13:36,Email,Standard,Central,65.73,True
+4,Daniel Wagner,customer4@example.com,2026-04-26 12:53:27,Referral,Standard,Central,83.98,True
+5,Cristian Santos,customer5@example.com,2024-09-05 00:31:50,Referral,Standard,South,69.52,True
+6,Connie Lawrence,customer6@example.com,2024-06-07 18:40:31,Organic,Standard,East,214.92,True
+7,Abigail Shaffer,customer7@example.com,2024-03-08 11:56:59,Referral,Standard,West,38.12,True
+8,Gina Moore,customer8@example.com,2026-09-03 13:23:25,Email,Premium,East,152.79,True
+9,Gabrielle Davis,customer9@example.com,2024-03-12 04:27:24,Paid Search,Premium,North,216.72,True
+10,Ryan Munoz,customer10@example.com,2025-08-13 12:07:58,Social,Standard,East,57.41,True
+11,Monica Herrera,customer11@example.com,2025-02-18 17:39:16,Organic,Standard,South,142.85,True
+12,Jamie Arnold,customer12@example.com,2025-12-19 02:18:35,Referral,Standard,Central,70.51,True
+13,Lisa Hensley,customer13@example.com,2024-03-27 21:31:04,Paid Search,Premium,East,112.27,False
+14,Michele Williams,customer14@example.com,2026-05-31 02:00:17,Social,Standard,West,111.0,True
+15,Dylan Miller,customer15@example.com,2025-12-13 19:14:13,Paid Search,Standard,South,191.35,True
+16,Brian Ramirez,customer16@example.com,2026-06-27 02:56:43,Referral,Premium,West,103.26,True
+17,Holly Wood,customer17@example.com,2024-08-02 21:22:52,Email,Standard,North,218.05,True
+18,Derek Zuniga,customer18@example.com,2024-09-05 12:33:40,Referral,Standard,West,107.77,True
+19,Lisa Jackson,customer19@example.com,2026-04-01 22:48:45,Social,Enterprise,North,176.47,False
+20,Carla Gray,customer20@example.com,2026-04-14 03:42:17,Social,Premium,East,45.66,True
+21,Margaret Hawkins DDS,customer21@example.com,2025-12-05 20:02:45,Organic,Enterprise,East,243.53,True
+22,Patty Perez,customer22@example.com,2026-02-27 15:44:40,Organic,Premium,East,213.58,True
+23,Ethan Adams,customer23@example.com,2024-11-04 23:56:36,Paid Search,Standard,South,144.06,True
+24,Tommy Walter,customer24@example.com,2026-04-03 21:01:04,Organic,Standard,West,24.48,True
+25,Matthew Foster,customer25@example.com,2025-04-22 16:57:27,Paid Search,Standard,Central,237.8,False
+26,Judy Baker,customer26@example.com,2026-01-24 23:02:15,Organic,Enterprise,Central,196.14,False
+27,Justin Baker,customer27@example.com,2026-01-08 07:48:40,Email,Standard,Central,220.66,True
+28,Stephanie Ross,customer28@example.com,2024-11-25 00:24:33,Email,Premium,South,183.98,True
+29,Zachary Hicks,customer29@example.com,2025-08-03 02:07:31,Referral,Premium,West,47.83,True
+30,Anthony Rodriguez,customer30@example.com,2025-06-09 04:44:36,Organic,Standard,South,155.34,False
+31,Rebecca Henderson,customer31@example.com,2026-09-07 09:13:25,Organic,Standard,North,217.72,False
+32,James Ferrell,customer32@example.com,2025-01-04 17:27:21,Social,Premium,South,144.02,True
+33,Tricia Valencia,customer33@example.com,2026-06-06 02:01:46,Email,Standard,West,205.72,True
+34,Nathan Maldonado,customer34@example.com,2024-05-30 13:50:33,Referral,Standard,West,127.42,True
+35,Debra Davidson,customer35@example.com,2026-09-30 19:19:38,Organic,Standard,East,204.14,False
+36,Jeffrey Chavez,customer36@example.com,2024-10-24 14:59:44,Paid Search,Standard,South,117.03,True
+37,Sherri Baker,customer37@example.com,2025-01-23 01:27:33,Organic,Standard,Central,42.52,True
+38,Cassandra Gaines,customer38@example.com,2026-04-19 18:34:44,Organic,Enterprise,South,58.25,True
+39,Elizabeth Fowler,customer39@example.com,2024-11-28 01:04:36,Referral,Premium,South,107.16,True
+40,Brittany Farmer,customer40@example.com,2025-02-15 23:29:11,Referral,Standard,Central,172.23,True
+41,Paula Moreno,customer41@example.com,2024-10-21 23:54:20,Social,Standard,North,153.21,True
+42,Fred Smith,customer42@example.com,2025-05-02 04:02:05,Organic,Standard,West,135.66,True
+43,Sherry Decker,customer43@example.com,2024-09-01 13:31:03,Organic,Enterprise,North,215.81,False
+44,Anthony Humphrey,customer44@example.com,2024-04-15 13:45:52,Paid Search,Standard,Central,76.63,True
+45,Angelica Tucker,customer45@example.com,2026-08-20 04:12:59,Organic,Standard,Central,150.0,True
+46,Philip Cannon,customer46@example.com,2025-02-09 02:02:59,Paid Search,Premium,East,74.9,True
+47,John Pierce,customer47@example.com,2026-09-29 18:00:49,Social,Standard,North,22.14,True
+48,Shane Henderson,customer48@example.com,2026-05-24 13:55:27,Organic,Standard,South,136.35,False
+49,Joshua Blair,customer49@example.com,2025-06-26 03:59:32,Organic,Premium,East,85.55,True
+50,Eric Carney,customer50@example.com,2026-04-23 20:38:00,Social,Standard,Central,21.8,True
+51,Jessica Holmes,customer51@example.com,2025-04-10 01:38:55,Organic,Enterprise,South,80.83,True
+52,Danny Morgan,customer52@example.com,2026-05-09 09:40:20,Paid Search,Standard,Central,68.44,True
+53,Crystal Robinson,customer53@example.com,2026-09-12 06:06:17,Social,Standard,East,228.23,True
+54,Mark Perez,customer54@example.com,2024-05-23 09:08:10,Referral,Premium,North,20.82,True
+55,Shannon Jones,customer55@example.com,2026-09-16 17:18:29,Social,Standard,West,146.89,True
+56,Michael Lewis,customer56@example.com,2024-01-16 00:30:45,Organic,Standard,South,145.49,True
+57,Timothy Duncan,customer57@example.com,2026-06-23 21:31:50,Email,Standard,South,29.62,True
+58,Richard Aguirre,customer58@example.com,2024-03-02 23:23:19,Social,Standard,South,173.39,True
+59,Brent Jordan,customer59@example.com,2026-05-19 17:58:13,Referral,Enterprise,South,232.93,True
+60,John Daniel,customer60@example.com,2024-09-09 10:30:17,Paid Search,Premium,North,61.25,True
+61,Victoria Garcia,customer61@example.com,2025-10-01 13:46:45,Paid Search,Standard,North,107.98,False
+62,Gerald Hensley,customer62@example.com,2026-01-01 04:35:45,Paid Search,Standard,West,100.42,True
+63,Connor West,customer63@example.com,2024-12-19 13:22:29,Paid Search,Standard,South,111.65,True
+64,Donald Wright,customer64@example.com,2024-04-17 20:11:35,Social,Standard,Central,111.93,True
+65,Jessica Callahan,customer65@example.com,2026-04-12 23:34:17,Social,Enterprise,North,221.72,True
+66,Amber Kidd,customer66@example.com,2026-06-20 21:57:14,Social,Standard,Central,119.95,True
+67,Tracy House,customer67@example.com,2025-05-02 06:44:16,Referral,Standard,Central,46.6,True
+68,Carol Tucker,customer68@example.com,2024-10-22 06:39:01,Social,Standard,West,20.39,True
+69,James Brown,customer69@example.com,2026-04-16 10:56:43,Paid Search,Standard,North,238.24,True
+70,William Baker,customer70@example.com,2026-08-26 00:55:03,Social,Premium,North,185.54,True
+71,Jordan Henderson,customer71@example.com,2025-04-25 10:58:04,Referral,Standard,East,147.51,True
+72,Whitney Peters,customer72@example.com,2025-08-11 23:33:37,Paid Search,Standard,East,113.4,True
+73,Brittney Phillips,customer73@example.com,2025-04-17 01:16:45,Social,Standard,Central,159.53,True
+74,Lauren Daniels,customer74@example.com,2025-11-17 06:58:35,Referral,Premium,Central,128.83,True
+75,Amy Silva,customer75@example.com,2024-09-20 14:33:13,Organic,Standard,Central,97.09,True
+76,Sarah Moore,customer76@example.com,2024-12-30 20:32:09,Social,Standard,South,53.89,False
+77,Angela Lopez,customer77@example.com,2026-01-08 02:22:00,Email,Premium,North,124.75,True
+78,Megan Young,customer78@example.com,2026-06-13 06:34:00,Paid Search,Premium,West,133.71,True
+79,Steve Sanchez,customer79@example.com,2024-01-09 14:43:32,Organic,Premium,South,60.45,True
+80,Lisa Barnes,customer80@example.com,2026-03-15 14:51:52,Referral,Standard,South,231.02,False
+81,Kelly Donovan,customer81@example.com,2024-07-26 03:14:31,Referral,Premium,Central,156.95,True
+82,Mike Allen,customer82@example.com,2025-11-18 12:19:59,Email,Premium,Central,118.15,True
+83,Michael Evans,customer83@example.com,2025-11-23 16:51:51,Paid Search,Premium,West,123.52,True
+84,Paul Jones,customer84@example.com,2026-09-17 13:44:29,Social,Premium,Central,131.46,True
+85,Zachary Ferrell,customer85@example.com,2025-11-14 07:38:20,Organic,Premium,South,82.49,True
+86,Daniel Baker,customer86@example.com,2026-04-19 02:20:04,Organic,Standard,South,108.1,True
+87,Shirley Suarez,customer87@example.com,2024-11-28 08:44:29,Organic,Standard,East,144.8,True
+88,Christopher Bass,customer88@example.com,2024-11-17 07:20:41,Referral,Standard,Central,237.59,False
+89,Lisa Archer,customer89@example.com,2026-06-13 07:17:30,Referral,Standard,East,88.68,True
+90,Aimee Montoya,customer90@example.com,2025-10-12 22:14:44,Email,Premium,Central,203.97,True
+91,Matthew Mcmillan,customer91@example.com,2026-01-28 10:30:51,Paid Search,Standard,West,26.68,True
+92,Brian Rodriguez,customer92@example.com,2025-09-20 02:01:04,Paid Search,Premium,South,245.57,True
+93,Denise Jacobs,customer93@example.com,2025-09-04 02:08:23,Email,Standard,North,39.31,True
+94,Christina Walters,customer94@example.com,2025-12-18 05:21:56,Paid Search,Standard,West,95.29,True
+95,John Whitehead,customer95@example.com,2025-06-08 06:55:56,Referral,Standard,West,78.02,False
+96,Anna Henderson,customer96@example.com,2024-01-31 02:39:40,Email,Standard,East,71.57,False
+97,Aaron Wise,customer97@example.com,2024-03-03 12:55:55,Organic,Enterprise,South,213.02,True
+98,Deborah Figueroa,customer98@example.com,2025-01-05 13:36:00,Paid Search,Standard,North,149.71,True
+99,Jessica Smith,customer99@example.com,2025-02-02 01:27:26,Social,Standard,Central,241.66,True
+100,Stephen Mckee,customer100@example.com,2024-09-11 09:37:54,Social,Standard,North,233.64,True
+101,Sandra Aguilar,customer101@example.com,2025-08-06 00:27:27,Referral,Enterprise,South,37.48,True
+102,Cameron Parker,customer102@example.com,2026-09-01 09:17:29,Paid Search,Standard,East,215.57,True
+103,Rebecca Valencia,customer103@example.com,2024-07-07 01:15:35,Email,Premium,East,142.53,True
+104,Christine Wright,customer104@example.com,2024-04-17 02:53:36,Email,Standard,North,215.4,True
+105,Richard Henson,customer105@example.com,2024-06-12 22:46:27,Referral,Enterprise,West,182.68,True
+106,Marc Moore,customer106@example.com,2026-03-21 12:07:42,Social,Standard,Central,198.17,True
+107,Sharon Cherry,customer107@example.com,2026-07-09 09:03:17,Social,Standard,South,211.07,False
+108,Sierra Johnson,customer108@example.com,2025-12-01 07:07:00,Paid Search,Premium,Central,160.38,True
+109,Evelyn Galvan,customer109@example.com,2024-02-14 14:00:48,Referral,Premium,South,132.14,True
+110,Sharon Cochran,customer110@example.com,2025-02-05 08:04:33,Social,Standard,Central,181.27,True
+111,Richard Rodriguez,customer111@example.com,2024-01-16 18:27:39,Email,Enterprise,North,75.51,True
+112,Shannon Walker,customer112@example.com,2026-05-12 10:28:09,Paid Search,Premium,West,123.08,False
+113,Julia Torres,customer113@example.com,2025-04-02 01:53:51,Paid Search,Standard,South,90.43,True
+114,Crystal Johnson,customer114@example.com,2026-01-05 04:25:47,Email,Standard,West,249.23,True
+115,Garrett Lin,customer115@example.com,2025-06-30 12:26:49,Referral,Standard,East,73.02,True
+116,Diana May,customer116@example.com,2025-05-05 04:28:48,Organic,Premium,South,64.05,True
+117,William Herrera,customer117@example.com,2025-03-05 12:39:11,Email,Enterprise,Central,157.26,True
+118,Ashley Waller,customer118@example.com,2024-10-28 13:13:40,Social,Standard,South,89.52,True
+119,Victor Baker,customer119@example.com,2024-07-15 15:21:17,Social,Standard,North,147.27,True
+120,Jeffrey Chandler,customer120@example.com,2024-07-15 04:02:26,Referral,Standard,North,152.03,True
+121,Larry Dixon,customer121@example.com,2025-11-15 05:52:01,Social,Standard,North,78.07,True
+122,Kenneth Scott,customer122@example.com,2024-06-26 05:28:36,Organic,Standard,North,152.71,True
+123,April Frost,customer123@example.com,2024-08-23 16:47:34,Paid Search,Premium,East,39.59,True
+124,Michelle Harmon,customer124@example.com,2026-05-16 22:28:14,Referral,Standard,Central,71.91,True
+125,Helen Jones,customer125@example.com,2025-11-30 20:23:47,Referral,Standard,Central,247.71,True
+126,Erin Edwards,customer126@example.com,2026-08-22 17:34:36,Organic,Standard,North,237.95,True
+127,Michelle Evans,customer127@example.com,2024-11-23 19:35:22,Social,Premium,South,75.17,True
+128,Jason Powell,customer128@example.com,2024-08-31 03:57:32,Organic,Standard,Central,128.08,False
+129,Cameron Fisher,customer129@example.com,2025-03-23 13:19:43,Social,Premium,West,36.37,True
+130,Megan Orr,customer130@example.com,2025-02-14 23:18:40,Email,Premium,South,117.78,True
+131,Elizabeth Kelley,customer131@example.com,2024-08-19 10:43:38,Social,Premium,North,33.72,True
+132,Dustin Jordan,customer132@example.com,2026-07-13 08:50:58,Email,Premium,West,48.6,True
+133,Mary Marshall,customer133@example.com,2025-09-17 06:36:18,Social,Standard,West,120.68,True
+134,Daniel Kennedy,customer134@example.com,2025-11-02 03:11:45,Social,Standard,North,41.01,True
+135,Rebecca Jackson,customer135@example.com,2026-06-12 12:58:37,Email,Enterprise,East,152.54,True
+136,Jose Schultz,customer136@example.com,2024-09-29 03:35:01,Referral,Standard,West,230.7,True
+137,Robert Potter,customer137@example.com,2026-06-28 06:40:12,Referral,Standard,West,242.88,True
+138,Courtney Gonzalez,customer138@example.com,2025-09-26 08:19:13,Social,Standard,North,217.28,True
+139,David Alvarez,customer139@example.com,2026-02-08 16:25:26,Social,Premium,West,207.12,True
+140,Angel Perry,customer140@example.com,2025-12-07 13:08:20,Organic,Standard,East,46.66,True
+141,Cheyenne Horton,customer141@example.com,2026-03-10 09:32:19,Organic,Premium,Central,126.25,False
+142,David Douglas Jr.,customer142@example.com,2026-03-16 08:49:17,Social,Standard,West,163.84,True
+143,Patricia Rodriguez,customer143@example.com,2024-11-12 05:12:04,Social,Standard,East,120.77,True
+144,Christopher Rubio,customer144@example.com,2024-07-07 15:05:33,Organic,Enterprise,Central,203.84,True
+145,Amber Wright,customer145@example.com,2025-04-27 17:36:17,Email,Standard,West,41.44,True
+146,Joyce Solis,customer146@example.com,2024-06-25 06:08:13,Referral,Enterprise,South,134.63,True
+147,Victoria Larson,customer147@example.com,2026-03-01 12:07:25,Social,Standard,West,245.46,True
+148,Stephanie Salazar,customer148@example.com,2026-05-06 08:39:06,Paid Search,Standard,Central,136.9,True
+149,Kathy Rivas,customer149@example.com,2024-04-18 10:42:30,Social,Premium,West,98.17,True
+150,Stephanie Manning,customer150@example.com,2025-02-19 00:55:07,Organic,Standard,East,212.62,True
+151,David Wright,customer151@example.com,2026-01-30 15:06:54,Paid Search,Standard,West,99.38,True
+152,Pamela Boyd,customer152@example.com,2026-04-24 04:32:28,Referral,Standard,East,220.01,True
+153,Denise Jones,customer153@example.com,2025-01-05 23:18:57,Email,Standard,West,30.04,True
+154,Devon Flores,customer154@example.com,2025-08-15 05:19:38,Referral,Enterprise,South,133.93,False
+155,Brenda Hall,customer155@example.com,2026-02-19 06:46:16,Email,Standard,North,221.06,True
+156,Michelle Brown,customer156@example.com,2026-03-28 00:52:39,Referral,Standard,South,114.3,True
+157,Joshua Perry,customer157@example.com,2024-08-27 19:00:12,Organic,Standard,East,97.87,True
+158,Jason Stein,customer158@example.com,2024-05-04 18:22:19,Social,Premium,Central,107.4,True
+159,Melissa Gates,customer159@example.com,2026-01-28 00:00:02,Email,Standard,North,74.0,True
+160,Jamie Smith,customer160@example.com,2025-03-22 10:15:56,Paid Search,Premium,West,245.02,True
+161,Paul Castaneda,customer161@example.com,2024-06-05 03:10:53,Referral,Standard,East,227.79,False
+162,Jennifer Adkins,customer162@example.com,2024-03-28 04:16:35,Social,Standard,West,53.48,True
+163,Lindsey Walker,customer163@example.com,2026-05-29 03:19:38,Paid Search,Standard,North,160.18,True
+164,Jeffrey Johnson,customer164@example.com,2025-01-09 02:47:07,Referral,Premium,South,73.4,True
+165,Michael Powell,customer165@example.com,2025-12-14 22:01:48,Social,Premium,West,227.28,True
+166,John Anderson,customer166@example.com,2024-09-02 09:45:29,Organic,Standard,East,247.16,True
+167,Alyssa Long,customer167@example.com,2025-10-21 03:23:01,Social,Standard,East,65.82,True
+168,Alyssa Day,customer168@example.com,2026-01-20 15:18:08,Organic,Standard,Central,102.56,True
+169,Joel Williams,customer169@example.com,2025-04-03 15:00:01,Organic,Enterprise,West,83.13,True
+170,Daniel Murphy,customer170@example.com,2024-03-17 04:30:07,Email,Premium,East,198.42,True
+171,Jamie Walton,customer171@example.com,2025-07-01 07:28:38,Paid Search,Standard,Central,77.64,True
+172,Darlene Miller,customer172@example.com,2024-07-31 11:29:58,Organic,Premium,North,91.05,True
+173,Joshua Cooke,customer173@example.com,2026-06-19 08:04:39,Social,Premium,North,229.21,True
+174,Matthew Harrington,customer174@example.com,2025-10-07 11:04:41,Paid Search,Standard,Central,221.59,True
+175,Nicole Herring,customer175@example.com,2026-02-18 12:15:52,Social,Premium,East,230.23,True
+176,Alex Hernandez,customer176@example.com,2025-04-03 11:40:14,Social,Premium,West,241.47,False
+177,Michael Elliott,customer177@example.com,2024-12-16 11:31:31,Referral,Enterprise,Central,104.13,True
+178,Michael Wang,customer178@example.com,2024-01-22 14:55:30,Social,Standard,West,104.77,True
+179,Lawrence Adkins,customer179@example.com,2025-02-11 06:05:08,Email,Standard,East,44.92,True
+180,Robert Oconnell,customer180@example.com,2024-02-08 20:59:11,Email,Premium,Central,95.44,True
+181,Alexander Collins,customer181@example.com,2024-04-08 04:54:07,Referral,Premium,East,169.33,False
+182,Tina Sanders,customer182@example.com,2024-03-11 10:39:05,Organic,Standard,West,46.71,True
+183,Angela Vaughn,customer183@example.com,2026-04-15 01:11:24,Paid Search,Standard,East,174.21,True
+184,Ashley Barton,customer184@example.com,2026-04-19 03:50:09,Referral,Standard,South,223.65,True
+185,Lindsay Martinez,customer185@example.com,2026-01-30 04:10:47,Email,Standard,East,27.52,True
+186,Dr. Hannah Patterson,customer186@example.com,2025-11-19 18:31:10,Referral,Enterprise,East,42.85,True
+187,Jonathan Peterson,customer187@example.com,2026-04-25 19:09:30,Social,Standard,East,63.66,False
+188,Samantha Garcia,customer188@example.com,2025-12-07 09:05:32,Organic,Premium,Central,243.35,False
+189,Madison Poole,customer189@example.com,2025-06-02 02:07:21,Paid Search,Enterprise,Central,67.2,True
+190,Jessica Gross,customer190@example.com,2026-05-10 22:21:50,Paid Search,Standard,South,95.57,False
+191,Debra Morton,customer191@example.com,2026-07-14 19:48:21,Organic,Standard,South,247.13,True
+192,Karen Graham,customer192@example.com,2024-09-28 01:43:27,Organic,Premium,North,50.31,True
+193,Debra Christian,customer193@example.com,2025-01-04 14:43:59,Email,Standard,South,81.03,False
+194,Angelica Keith,customer194@example.com,2025-10-15 22:32:49,Email,Standard,North,129.54,True
+195,John Bishop,customer195@example.com,2026-03-08 06:53:52,Email,Standard,Central,70.96,True
+196,Allen Rosales,customer196@example.com,2026-03-21 01:06:37,Social,Standard,North,33.99,True
+197,Daniel Salinas,customer197@example.com,2025-09-15 21:22:35,Referral,Premium,West,183.85,True
+198,Spencer Haynes,customer198@example.com,2024-05-05 12:05:14,Social,Standard,North,49.02,True
+199,Adam Vaughan,customer199@example.com,2026-06-28 07:58:38,Email,Premium,West,248.76,True
+200,Nathan Freeman,customer200@example.com,2025-12-05 19:44:12,Email,Standard,North,202.41,False
+201,Melissa Brewer,customer201@example.com,2026-05-06 11:16:01,Paid Search,Standard,South,115.18,True
+202,Ricky Davis II,customer202@example.com,2025-09-11 09:44:19,Referral,Premium,East,118.16,True
+203,Elizabeth Perkins,customer203@example.com,2025-08-04 10:57:12,Paid Search,Premium,West,35.44,True
+204,Joseph Coleman,customer204@example.com,2024-05-24 19:52:12,Referral,Standard,East,206.71,True
+205,Erin Warner,customer205@example.com,2026-06-30 01:00:10,Email,Standard,North,114.49,True
+206,David Martinez,customer206@example.com,2025-10-19 00:13:43,Organic,Enterprise,Central,91.86,False
+207,Bryan Herrera,customer207@example.com,2026-02-27 05:42:39,Paid Search,Standard,West,71.58,False
+208,Cathy Robinson,customer208@example.com,2026-05-14 03:04:48,Social,Standard,East,152.04,True
+209,Dr. William Warren,customer209@example.com,2026-05-21 10:19:01,Email,Standard,Central,26.04,True
+210,Brian Lee,customer210@example.com,2025-02-19 11:10:26,Organic,Standard,East,231.95,True
+211,Christopher Smith,customer211@example.com,2024-10-08 19:17:21,Paid Search,Standard,West,36.0,True
+212,Denise Mccann,customer212@example.com,2024-02-17 14:58:46,Organic,Premium,South,106.52,True
+213,Melissa Martinez,customer213@example.com,2024-09-01 12:38:35,Social,Standard,East,198.67,True
+214,Katherine Salas,customer214@example.com,2024-05-11 23:25:40,Organic,Standard,Central,31.45,False
+215,Julie Alexander,customer215@example.com,2025-11-19 08:26:56,Referral,Standard,West,115.26,True
+216,Anthony Everett,customer216@example.com,2026-03-06 21:39:17,Organic,Standard,North,85.15,True
+217,Rodney Morales,customer217@example.com,2026-01-25 22:59:02,Email,Premium,North,70.72,True
+218,Mark Brown,customer218@example.com,2024-03-26 02:25:10,Organic,Standard,South,196.49,True
+219,Justin Torres,customer219@example.com,2025-03-25 15:22:16,Social,Standard,West,191.81,True
+220,Bailey Duran DDS,customer220@example.com,2025-08-13 15:09:39,Email,Premium,Central,148.51,True
+221,Courtney Mills,customer221@example.com,2025-07-04 04:18:33,Organic,Standard,North,120.33,True
+222,Jeremy Dalton,customer222@example.com,2024-04-30 22:55:42,Social,Standard,Central,113.02,True
+223,Elizabeth Oliver DDS,customer223@example.com,2025-03-25 17:54:33,Organic,Standard,East,59.53,True
+224,Theresa Clark,customer224@example.com,2025-12-15 17:39:20,Social,Standard,North,75.96,True
+225,Matthew Moore,customer225@example.com,2026-03-24 22:44:22,Organic,Standard,East,191.54,True
+226,Benjamin Smith,customer226@example.com,2024-09-18 04:26:30,Organic,Standard,North,142.04,True
+227,Kirk Carter,customer227@example.com,2025-06-26 17:39:14,Social,Premium,South,74.34,False
+228,Michael Warner,customer228@example.com,2024-11-02 10:49:33,Paid Search,Standard,North,60.74,True
+229,Michael Bradshaw,customer229@example.com,2026-02-06 14:01:04,Referral,Premium,Central,123.25,True
+230,Lori Guerrero,customer230@example.com,2026-05-26 21:46:44,Email,Standard,East,54.72,False
+231,Jessica Stephens,customer231@example.com,2025-11-17 22:42:41,Social,Premium,Central,32.92,True
+232,Susan Serrano,customer232@example.com,2025-04-27 04:50:36,Referral,Standard,North,104.81,True
+233,Christopher Parker,customer233@example.com,2026-09-28 10:54:28,Organic,Standard,Central,108.43,True
+234,Laura Roberts,customer234@example.com,2024-03-04 17:26:15,Referral,Premium,Central,169.92,True
+235,Michael Lyons,customer235@example.com,2026-01-08 20:44:07,Email,Standard,North,123.62,True
+236,Kathryn Snyder,customer236@example.com,2025-06-17 12:17:17,Organic,Standard,South,29.0,True
+237,Andrew Reynolds,customer237@example.com,2025-11-13 14:49:54,Email,Standard,South,103.7,True
+238,David Davis,customer238@example.com,2025-08-24 19:56:10,Referral,Premium,Central,32.04,True
+239,Sara Johnston,customer239@example.com,2025-06-03 20:37:55,Organic,Standard,Central,176.03,True
+240,Yvonne Chambers,customer240@example.com,2026-07-25 06:18:53,Paid Search,Standard,Central,172.63,True
+241,Andrew Avila,customer241@example.com,2025-04-26 22:16:38,Referral,Standard,North,91.2,True
+242,Matthew Moon,customer242@example.com,2025-05-25 06:29:36,Paid Search,Premium,Central,41.49,True
+243,Kevin Walters,customer243@example.com,2026-02-28 21:49:29,Social,Standard,East,61.46,True
+244,Brandon Bailey MD,customer244@example.com,2026-01-25 09:29:38,Paid Search,Standard,South,55.64,True
+245,Shannon Rivera,customer245@example.com,2024-06-06 02:48:03,Email,Premium,Central,28.68,True
+246,Donna Landry,customer246@example.com,2026-08-18 01:52:59,Paid Search,Standard,South,57.32,True
+247,Krista Gibson,customer247@example.com,2026-08-28 12:00:47,Paid Search,Premium,North,114.5,True
+248,Frank Cordova,customer248@example.com,2025-01-03 23:46:03,Referral,Standard,West,73.82,True
+249,Jose Travis,customer249@example.com,2025-12-29 14:10:08,Paid Search,Standard,Central,246.42,True
+250,Kimberly Gutierrez,customer250@example.com,2025-03-13 17:12:41,Referral,Standard,West,242.24,True
+251,Isaiah Avila,customer251@example.com,2026-07-28 07:29:14,Paid Search,Premium,North,167.47,True
+252,Olivia Harris,customer252@example.com,2026-05-11 10:46:38,Organic,Premium,Central,215.77,True
+253,Tanya Kim,customer253@example.com,2024-09-06 00:52:37,Social,Standard,Central,53.89,True
+254,Barbara Dudley,customer254@example.com,2024-12-10 22:10:36,Referral,Premium,North,115.43,True
+255,Cynthia Moore,customer255@example.com,2025-08-03 22:17:41,Paid Search,Standard,North,106.23,False
+256,Kristen Davis,customer256@example.com,2024-06-02 22:05:11,Social,Premium,South,28.81,True
+257,Susan Murray MD,customer257@example.com,2026-01-03 22:23:47,Paid Search,Premium,West,123.18,False
+258,Kathleen Moran,customer258@example.com,2024-05-03 01:45:03,Organic,Standard,South,146.22,True
+259,Denise Davenport,customer259@example.com,2026-03-30 20:44:52,Referral,Standard,East,74.66,False
+260,Mrs. Kristen Reyes,customer260@example.com,2025-01-05 09:40:08,Referral,Standard,Central,125.14,False
+261,Katie Suarez,customer261@example.com,2026-02-15 10:59:02,Email,Standard,Central,152.26,True
+262,Desiree Tyler,customer262@example.com,2025-03-28 11:24:24,Referral,Standard,East,75.33,True
+263,Timothy Romero,customer263@example.com,2024-05-12 23:55:10,Email,Enterprise,North,239.28,True
+264,Diane Evans,customer264@example.com,2026-02-27 13:32:30,Email,Standard,West,30.01,True
+265,Yvonne Burns,customer265@example.com,2025-08-02 21:43:18,Social,Premium,East,201.36,True
+266,Joshua Reed,customer266@example.com,2026-09-02 23:07:02,Organic,Premium,East,50.68,True
+267,Kimberly Gibson,customer267@example.com,2025-06-09 21:57:23,Paid Search,Premium,West,245.59,True
+268,Colin Terry,customer268@example.com,2024-10-10 03:48:58,Paid Search,Standard,West,28.51,True
+269,Cynthia Rowe,customer269@example.com,2024-11-05 20:46:27,Organic,Standard,East,138.54,True
+270,Patrick Thornton,customer270@example.com,2026-04-23 13:39:06,Referral,Standard,South,85.81,True
+271,Jasmin Alvarado,customer271@example.com,2024-03-15 06:15:48,Social,Standard,East,120.5,True
+272,Veronica Simpson,customer272@example.com,2025-11-14 02:34:11,Referral,Standard,South,134.13,True
+273,Jonathan Lawrence,customer273@example.com,2026-03-17 16:00:25,Social,Premium,West,38.15,True
+274,Shelly Alexander,customer274@example.com,2024-10-07 07:54:19,Email,Standard,North,38.42,True
+275,Joyce Bowen,customer275@example.com,2025-04-21 02:59:37,Referral,Standard,West,58.33,True
+276,Matthew Moore,customer276@example.com,2025-11-25 14:12:07,Organic,Premium,East,161.42,True
+277,Wayne Morgan,customer277@example.com,2026-09-20 09:08:37,Organic,Standard,West,103.56,True
+278,Marie Christian,customer278@example.com,2024-09-05 12:44:14,Organic,Standard,Central,175.96,True
+279,Shannon James,customer279@example.com,2024-07-15 02:11:47,Organic,Standard,East,103.29,True
+280,Nathan Malone,customer280@example.com,2024-02-20 07:24:44,Email,Standard,West,238.23,True
+281,Amanda Jones,customer281@example.com,2024-04-29 10:29:47,Email,Standard,East,111.55,True
+282,Tammie Bright,customer282@example.com,2025-01-22 18:11:48,Organic,Standard,South,134.78,True
+283,Jessica Garcia,customer283@example.com,2026-05-22 12:40:35,Organic,Standard,East,181.93,True
+284,Shelia Wallace,customer284@example.com,2026-08-08 12:26:05,Social,Premium,West,66.04,False
+285,Stephanie Williams,customer285@example.com,2024-04-25 00:51:36,Referral,Standard,West,249.37,True
+286,Elaine Brooks,customer286@example.com,2025-05-11 11:05:44,Social,Premium,Central,144.7,True
+287,Joseph Knight,customer287@example.com,2024-09-01 16:13:16,Paid Search,Premium,Central,71.58,True
+288,Carolyn Miller,customer288@example.com,2024-08-03 17:42:18,Paid Search,Premium,North,103.01,True
+289,Lisa Allen,customer289@example.com,2025-12-27 02:09:09,Email,Standard,North,35.12,True
+290,Briana Murray,customer290@example.com,2026-01-13 13:55:43,Email,Standard,West,209.37,False
+291,David Smith,customer291@example.com,2025-05-07 11:38:53,Organic,Standard,Central,99.24,True
+292,Stephanie Byrd,customer292@example.com,2026-05-06 10:04:55,Email,Standard,South,119.5,True
+293,Jeremy Reed,customer293@example.com,2024-03-27 01:56:26,Organic,Standard,East,57.87,True
+294,Margaret Coleman,customer294@example.com,2024-12-16 06:08:29,Social,Enterprise,Central,225.83,True
+295,Ryan Gonzalez,customer295@example.com,2025-01-24 07:14:35,Paid Search,Standard,Central,83.12,True
+296,John Young,customer296@example.com,2026-08-12 11:32:47,Email,Standard,South,156.12,True
+297,Laura Haney,customer297@example.com,2024-09-22 22:49:18,Email,Premium,Central,97.65,True
+298,William Barrett,customer298@example.com,2024-03-04 23:50:05,Organic,Standard,Central,80.87,True
+299,Keith Jennings,customer299@example.com,2026-06-07 18:49:15,Referral,Standard,North,134.55,True
+300,Amber Obrien,customer300@example.com,2025-03-25 23:44:31,Social,Standard,West,88.41,False
+301,Tanner Mitchell DDS,customer301@example.com,2024-04-03 01:43:11,Paid Search,Standard,West,126.82,True
+302,Heather Fields,customer302@example.com,2024-08-11 04:21:25,Social,Premium,East,188.87,True
+303,Megan Le,customer303@example.com,2025-09-11 09:13:57,Paid Search,Premium,Central,149.18,True
+304,Sara Fuller,customer304@example.com,2025-12-25 15:21:28,Organic,Standard,South,52.4,False
+305,Maria Parker,customer305@example.com,2025-08-19 18:08:37,Email,Standard,South,207.1,True
+306,Kevin Oconnor,customer306@example.com,2025-04-30 18:51:26,Paid Search,Premium,West,249.07,True
+307,Edward Burgess,customer307@example.com,2025-04-24 07:13:22,Referral,Standard,West,136.25,True
+308,Carlos Ryan,customer308@example.com,2024-11-30 05:09:55,Email,Standard,North,84.71,True
+309,Kiara Mcintyre,customer309@example.com,2026-01-01 00:44:58,Social,Standard,North,119.11,True
+310,Dawn Summers,customer310@example.com,2025-07-22 05:10:43,Referral,Standard,West,31.77,True
+311,Dr. Paul Morgan,customer311@example.com,2025-07-17 03:51:57,Email,Standard,West,135.98,True
+312,Victor Taylor,customer312@example.com,2025-03-10 12:44:33,Email,Premium,North,49.59,False
+313,Shannon Ramsey,customer313@example.com,2025-08-02 17:50:32,Social,Standard,East,193.64,True
+314,Tracy Ballard,customer314@example.com,2026-03-01 21:27:47,Referral,Standard,North,28.95,True
+315,Richard Smith,customer315@example.com,2026-01-05 22:27:43,Email,Standard,Central,225.42,False
+316,Jordan Chambers,customer316@example.com,2026-08-10 08:50:10,Social,Standard,Central,190.04,True
+317,Lauren Carson,customer317@example.com,2025-06-06 12:54:40,Email,Premium,Central,132.66,True
+318,Ashley Hall,customer318@example.com,2026-01-07 17:16:45,Organic,Standard,North,245.38,True
+319,Stephen Hoffman,customer319@example.com,2026-09-04 12:31:52,Organic,Standard,East,242.43,True
+320,Connie Brown,customer320@example.com,2026-06-17 15:05:10,Email,Standard,North,154.21,True
+321,Susan Turner,customer321@example.com,2026-09-04 03:45:38,Email,Premium,West,53.99,True
+322,Charles Shah,customer322@example.com,2024-02-19 01:02:02,Email,Enterprise,North,63.88,True
+323,Johnathan Davis,customer323@example.com,2025-10-12 13:15:40,Paid Search,Standard,South,114.39,True
+324,Brandy Chavez,customer324@example.com,2026-01-02 14:43:33,Organic,Premium,Central,67.69,True
+325,Natalie Bautista,customer325@example.com,2026-01-13 02:57:46,Email,Standard,South,125.72,True
+326,Patrick Moore,customer326@example.com,2026-04-28 14:32:30,Social,Premium,East,160.32,True
+327,Brett Burns,customer327@example.com,2025-01-17 22:53:58,Social,Standard,South,236.54,True
+328,Trevor Johnson,customer328@example.com,2025-03-24 22:51:18,Paid Search,Premium,West,92.92,True
+329,Jeremy Sampson,customer329@example.com,2025-02-28 19:14:09,Social,Standard,Central,107.33,True
+330,Ariana Jennings,customer330@example.com,2025-06-20 03:33:11,Paid Search,Standard,East,239.72,False
+331,Vanessa Howard,customer331@example.com,2025-11-18 04:58:36,Social,Premium,South,66.48,True
+332,Colton Martinez,customer332@example.com,2026-05-23 01:33:01,Social,Standard,Central,190.4,True
+333,Jordan Bates,customer333@example.com,2024-03-19 20:40:20,Email,Standard,South,32.07,True
+334,Linda Smith,customer334@example.com,2026-01-03 20:29:39,Organic,Premium,South,21.19,True
+335,Dana Martinez,customer335@example.com,2024-09-02 08:28:12,Referral,Premium,West,129.81,True
+336,Andrea Hubbard,customer336@example.com,2025-03-22 05:16:16,Social,Standard,North,228.83,False
+337,Daniel Kane,customer337@example.com,2026-06-10 21:14:34,Paid Search,Standard,North,230.04,True
+338,Charles Lester,customer338@example.com,2024-09-30 01:52:40,Organic,Enterprise,West,201.23,True
+339,Scott Thomas,customer339@example.com,2025-03-25 16:06:39,Organic,Standard,Central,158.64,True
+340,David Thompson,customer340@example.com,2025-06-04 11:16:31,Social,Standard,Central,140.59,True
+341,Allison Smith,customer341@example.com,2024-07-27 11:20:11,Email,Standard,South,206.03,True
+342,Cynthia Morris,customer342@example.com,2025-12-13 21:34:17,Social,Premium,North,189.42,True
+343,Anthony Harmon,customer343@example.com,2026-06-01 00:25:05,Paid Search,Standard,West,210.21,True
+344,Nichole Alvarez,customer344@example.com,2024-05-14 17:49:06,Referral,Premium,South,245.79,True
+345,Kayla Rodriguez,customer345@example.com,2025-01-20 07:51:56,Organic,Standard,South,122.75,True
+346,Theresa Williams,customer346@example.com,2025-05-27 01:19:19,Social,Standard,Central,22.63,True
+347,Sharon Boyd,customer347@example.com,2025-01-02 01:59:55,Organic,Premium,West,90.57,True
+348,Victor Brown,customer348@example.com,2026-02-19 15:19:15,Social,Premium,East,104.54,True
+349,James Parks,customer349@example.com,2024-07-26 11:48:18,Referral,Standard,Central,105.93,True
+350,Theodore Jones Jr.,customer350@example.com,2026-01-01 09:44:34,Email,Premium,South,195.23,True
+351,Ana Hill,customer351@example.com,2026-07-14 13:34:23,Organic,Standard,Central,181.87,False
+352,Kimberly Nguyen,customer352@example.com,2026-05-26 09:44:04,Organic,Standard,Central,227.66,True
+353,Kerry Chavez DDS,customer353@example.com,2026-04-13 16:08:27,Paid Search,Standard,Central,121.62,True
+354,Michael Farrell,customer354@example.com,2026-06-24 21:19:16,Referral,Standard,Central,122.46,False
+355,Patricia Le,customer355@example.com,2024-07-23 23:14:29,Email,Standard,Central,33.28,True
+356,Jesse Perez,customer356@example.com,2025-04-23 17:23:38,Organic,Standard,North,191.54,True
+357,Jesse Perry,customer357@example.com,2024-03-11 08:31:34,Referral,Standard,North,144.47,False
+358,Jeffery Ortega,customer358@example.com,2024-04-17 05:13:12,Referral,Standard,West,61.4,False
+359,Christian Leblanc,customer359@example.com,2026-09-23 13:47:07,Referral,Standard,West,123.16,True
+360,Ronald Davis,customer360@example.com,2025-08-09 10:05:02,Referral,Standard,Central,50.59,True
+361,Parker Cain,customer361@example.com,2024-07-03 06:57:54,Paid Search,Enterprise,West,141.63,True
+362,Laurie Hoffman,customer362@example.com,2024-12-11 22:29:34,Organic,Premium,East,126.49,True
+363,Bryan Gomez,customer363@example.com,2025-10-20 20:38:20,Email,Standard,South,76.93,True
+364,Nicole Parrish,customer364@example.com,2025-03-04 04:58:00,Paid Search,Enterprise,North,27.41,True
+365,Tracy Burke,customer365@example.com,2026-08-13 05:59:55,Organic,Standard,North,43.21,False
+366,Kenneth Lewis,customer366@example.com,2026-07-17 15:02:10,Organic,Standard,North,112.52,True
+367,Courtney Rodriguez,customer367@example.com,2024-12-03 12:22:59,Organic,Standard,East,73.86,True
+368,Holly Farmer,customer368@example.com,2026-06-13 22:57:00,Social,Standard,East,74.49,True
+369,Renee Bruce,customer369@example.com,2026-03-20 17:38:52,Paid Search,Standard,East,34.02,True
+370,Sabrina Austin,customer370@example.com,2024-09-29 01:26:18,Referral,Standard,North,243.63,True
+371,Allison Hickman,customer371@example.com,2025-08-15 02:28:28,Email,Standard,West,113.9,True
+372,Debra White,customer372@example.com,2024-10-12 15:30:18,Email,Standard,South,89.17,True
+373,Ellen Morgan,customer373@example.com,2025-12-20 06:49:44,Organic,Standard,West,148.18,False
+374,Sergio Knight,customer374@example.com,2025-01-12 06:25:18,Social,Standard,North,232.11,True
+375,Charles Schultz,customer375@example.com,2024-05-23 15:18:27,Email,Premium,South,31.85,True
+376,Paul Lewis,customer376@example.com,2026-07-28 18:53:44,Email,Standard,North,63.28,True
+377,Glen Wood,customer377@example.com,2026-05-18 03:27:21,Paid Search,Standard,East,89.73,True
+378,Paula Bradley,customer378@example.com,2024-11-25 00:45:57,Paid Search,Enterprise,North,191.78,True
+379,Anthony Moore,customer379@example.com,2025-01-11 20:31:45,Email,Premium,West,230.48,True
+380,Megan Nelson,customer380@example.com,2025-03-15 17:12:42,Referral,Standard,East,90.94,True
+381,Karla Ramos,customer381@example.com,2026-02-11 11:50:28,Referral,Standard,West,195.17,True
+382,Paul Wilson,customer382@example.com,2024-11-11 13:08:30,Social,Standard,North,149.38,True
+383,Douglas Gregory,customer383@example.com,2024-08-14 16:23:35,Organic,Standard,Central,153.2,True
+384,Mr. Andrew Foster,customer384@example.com,2024-08-24 18:18:33,Paid Search,Standard,West,151.05,True
+385,Aimee Turner,customer385@example.com,2026-05-05 09:26:29,Social,Standard,West,242.3,True
+386,Chad Scott,customer386@example.com,2026-02-01 02:43:44,Referral,Standard,East,58.93,True
+387,Adam Burgess,customer387@example.com,2026-01-28 13:45:07,Paid Search,Premium,Central,247.77,True
+388,James Padilla,customer388@example.com,2026-03-24 22:03:49,Organic,Premium,North,237.39,True
+389,Sandra Drake,customer389@example.com,2024-01-10 22:00:22,Referral,Standard,South,35.63,True
+390,Scott Williams,customer390@example.com,2024-12-05 18:27:37,Email,Standard,North,162.1,True
+391,Thomas Atkins,customer391@example.com,2026-08-15 17:30:27,Referral,Premium,North,21.52,True
+392,Laura Mckinney,customer392@example.com,2024-01-19 09:50:10,Organic,Standard,East,143.22,True
+393,Brian Smith,customer393@example.com,2026-02-19 03:58:14,Referral,Premium,South,44.61,False
+394,Robert Montgomery,customer394@example.com,2024-08-19 07:18:02,Paid Search,Standard,Central,78.06,True
+395,Tamara Davis,customer395@example.com,2025-09-08 13:22:16,Organic,Standard,West,125.57,True
+396,Dana Chapman,customer396@example.com,2024-12-16 20:34:07,Social,Premium,North,170.36,True
+397,Jennifer Collins,customer397@example.com,2024-02-19 05:17:02,Organic,Standard,West,147.12,False
+398,Gary Jackson,customer398@example.com,2024-01-15 16:19:40,Paid Search,Standard,West,168.33,True
+399,Ashley Hicks,customer399@example.com,2024-05-28 03:20:48,Email,Premium,South,68.63,True
+400,Hannah Luna,customer400@example.com,2026-05-30 11:14:40,Referral,Standard,North,177.42,True
+401,Robin Young,customer401@example.com,2026-04-23 13:39:06,Email,Premium,South,233.62,True
+402,Craig Morrison,customer402@example.com,2024-11-17 19:24:51,Email,Standard,West,233.64,True
+403,Mary Thompson,customer403@example.com,2026-05-26 01:53:08,Paid Search,Standard,West,175.72,True
+404,Kathleen Webster,customer404@example.com,2025-08-19 06:49:26,Paid Search,Premium,North,135.18,True
+405,Joann Glass,customer405@example.com,2024-03-24 09:56:53,Organic,Standard,North,98.34,True
+406,Madison Weber,customer406@example.com,2026-07-14 05:54:01,Referral,Enterprise,East,26.81,True
+407,Lori Hernandez,customer407@example.com,2025-11-30 21:43:43,Referral,Standard,Central,236.46,True
+408,Jeremy Turner,customer408@example.com,2026-06-29 03:00:27,Referral,Standard,Central,87.94,True
+409,Anthony Romero,customer409@example.com,2024-04-24 04:31:40,Organic,Standard,West,183.69,True
+410,Jesse Brown,customer410@example.com,2025-08-28 06:09:36,Social,Standard,North,21.19,True
+411,Angela Lin,customer411@example.com,2025-07-13 02:41:48,Social,Standard,North,63.1,True
+412,Lisa Hunter,customer412@example.com,2026-05-11 18:12:22,Email,Standard,North,40.61,True
+413,Julian Conner,customer413@example.com,2026-07-16 06:57:37,Email,Premium,West,22.84,True
+414,Joanna Pacheco,customer414@example.com,2024-05-11 13:49:36,Email,Premium,South,151.55,True
+415,Erica Alvarez,customer415@example.com,2025-08-14 10:43:07,Paid Search,Standard,East,81.73,False
+416,Antonio Garcia,customer416@example.com,2024-09-16 17:56:37,Referral,Standard,East,131.37,False
+417,Gwendolyn Klein,customer417@example.com,2025-01-26 00:02:46,Paid Search,Premium,West,156.58,True
+418,Carrie Wright,customer418@example.com,2024-06-15 04:13:08,Paid Search,Standard,West,96.41,True
+419,Jeffrey Mills,customer419@example.com,2025-05-26 22:12:20,Referral,Standard,Central,51.31,True
+420,Jake Campbell,customer420@example.com,2024-11-08 00:17:10,Referral,Standard,West,242.81,True
+421,George Harper,customer421@example.com,2026-09-10 04:18:50,Referral,Enterprise,South,94.95,True
+422,Maria Jones,customer422@example.com,2025-09-02 09:41:00,Social,Standard,Central,65.95,True
+423,Michael Mitchell,customer423@example.com,2024-10-06 12:10:21,Email,Standard,West,236.88,True
+424,Mary Escobar,customer424@example.com,2025-03-28 13:36:52,Organic,Premium,West,174.78,False
+425,Felicia Aguilar,customer425@example.com,2025-04-15 10:25:09,Paid Search,Standard,South,184.5,True
+426,Gregory Ponce,customer426@example.com,2024-04-24 21:37:12,Referral,Enterprise,West,153.92,True
+427,Jenna Larson,customer427@example.com,2025-10-11 19:22:48,Email,Standard,East,181.38,True
+428,Emily Bennett,customer428@example.com,2026-07-11 11:12:43,Organic,Standard,South,171.25,True
+429,Robin Santiago,customer429@example.com,2026-08-09 18:17:16,Organic,Standard,West,242.37,True
+430,Nancy Jennings,customer430@example.com,2025-10-30 16:32:45,Organic,Standard,East,71.06,True
+431,Maria Henderson,customer431@example.com,2026-05-16 19:30:08,Email,Premium,South,122.53,True
+432,Jack White,customer432@example.com,2026-07-03 08:13:26,Email,Standard,North,131.04,True
+433,Travis Tucker,customer433@example.com,2024-05-13 08:53:56,Organic,Premium,South,100.12,True
+434,Chad Jones,customer434@example.com,2024-11-17 08:34:22,Email,Standard,West,42.45,True
+435,Ashley Wise,customer435@example.com,2025-12-03 20:27:14,Social,Standard,North,206.34,False
+436,Sophia Johnson,customer436@example.com,2025-06-16 22:52:22,Organic,Premium,South,233.88,True
+437,Ralph Anderson,customer437@example.com,2026-03-12 13:38:49,Paid Search,Standard,East,148.77,True
+438,Christopher Guerra,customer438@example.com,2024-12-26 04:12:04,Referral,Standard,South,167.31,True
+439,Rhonda Martin,customer439@example.com,2024-02-15 08:22:00,Email,Premium,West,156.21,True
+440,Jason Rhodes,customer440@example.com,2024-11-29 16:10:45,Paid Search,Standard,North,152.79,True
+441,Jeremy Mitchell,customer441@example.com,2026-04-14 00:40:23,Paid Search,Standard,South,125.24,True
+442,Joann Ferguson,customer442@example.com,2026-01-30 09:17:07,Email,Enterprise,East,157.3,True
+443,Robert Harrison,customer443@example.com,2026-06-30 21:07:19,Organic,Standard,West,161.99,True
+444,Holly Valentine,customer444@example.com,2025-04-07 01:32:49,Email,Standard,South,92.03,True
+445,Mrs. Diane Reyes,customer445@example.com,2024-06-30 16:10:16,Paid Search,Standard,South,137.49,True
+446,Tracy Montoya,customer446@example.com,2024-08-02 04:03:55,Email,Standard,South,131.93,True
+447,Brenda Wright,customer447@example.com,2026-09-29 09:02:23,Paid Search,Standard,West,86.43,True
+448,Shelly Spencer,customer448@example.com,2025-12-01 14:32:05,Email,Standard,East,238.92,True
+449,Ryan Rosales,customer449@example.com,2024-10-30 02:55:02,Referral,Enterprise,Central,170.21,True
+450,Phillip Nelson,customer450@example.com,2026-02-02 20:52:10,Referral,Premium,West,132.4,False
+451,Brittany Kim,customer451@example.com,2024-02-17 22:34:13,Paid Search,Standard,East,71.71,True
+452,Courtney Hayes,customer452@example.com,2025-12-11 10:10:37,Email,Premium,West,146.44,False
+453,Alexander Brown,customer453@example.com,2024-06-26 09:55:57,Social,Premium,East,144.67,True
+454,Cynthia Vang,customer454@example.com,2025-11-16 15:20:19,Email,Standard,West,43.56,True
+455,Alfred Galvan,customer455@example.com,2025-01-19 12:38:52,Social,Premium,North,123.44,True
+456,Marie Moody,customer456@example.com,2024-05-15 02:57:41,Referral,Premium,North,198.4,True
+457,Dustin Gallegos,customer457@example.com,2026-07-02 07:23:29,Social,Premium,Central,165.54,True
+458,Brenda Thornton,customer458@example.com,2024-08-04 07:03:20,Paid Search,Premium,North,151.12,True
+459,Aaron Miller,customer459@example.com,2026-07-16 04:28:02,Email,Standard,East,86.55,True
+460,Ruben Dunn,customer460@example.com,2026-03-10 02:46:50,Organic,Standard,West,231.32,True
+461,Kelsey Rodriguez,customer461@example.com,2024-07-16 02:44:01,Paid Search,Standard,East,210.55,True
+462,Eric Williams,customer462@example.com,2025-09-02 00:56:42,Referral,Standard,East,164.4,True
+463,Riley Bryant,customer463@example.com,2024-04-27 07:27:02,Organic,Standard,East,179.78,True
+464,Taylor Carlson,customer464@example.com,2025-12-07 08:16:56,Referral,Standard,North,219.85,True
+465,Jose Allen,customer465@example.com,2024-05-24 16:34:21,Referral,Standard,East,215.52,True
+466,Jeffrey Mendez,customer466@example.com,2025-09-09 19:55:20,Paid Search,Enterprise,South,133.78,True
+467,Jason Beck,customer467@example.com,2025-03-16 13:06:58,Social,Standard,South,150.21,True
+468,William Jones,customer468@example.com,2025-06-17 23:32:30,Organic,Standard,West,23.74,True
+469,Katie Mcneil,customer469@example.com,2024-09-02 10:03:08,Referral,Standard,West,66.53,True
+470,Jeanette Harrison,customer470@example.com,2024-07-23 22:04:34,Social,Standard,East,41.47,True
+471,Veronica King,customer471@example.com,2024-05-08 00:51:36,Social,Premium,South,31.91,True
+472,Richard Cooper,customer472@example.com,2024-12-29 17:30:54,Referral,Premium,North,20.25,True
+473,Lori Ingram,customer473@example.com,2024-07-25 03:24:24,Email,Standard,West,22.14,True
+474,Evelyn Williams,customer474@example.com,2024-07-06 08:03:43,Referral,Premium,West,36.29,True
+475,Robin Thompson,customer475@example.com,2024-06-08 02:45:42,Organic,Standard,East,51.54,True
+476,Julie Dominguez,customer476@example.com,2024-07-25 20:03:04,Paid Search,Standard,Central,21.95,True
+477,Robin Brown,customer477@example.com,2025-11-14 16:05:44,Social,Premium,South,231.58,True
+478,Judith Carter,customer478@example.com,2025-11-18 05:15:57,Paid Search,Standard,North,52.2,False
+479,Curtis Williams,customer479@example.com,2025-08-19 13:44:50,Social,Enterprise,East,201.95,True
+480,Kaylee Hays,customer480@example.com,2026-09-28 09:11:48,Organic,Standard,Central,158.0,True
+481,Dawn Mullins,customer481@example.com,2024-02-11 16:05:10,Social,Standard,Central,137.19,True
+482,Howard Norman,customer482@example.com,2025-04-04 02:36:22,Organic,Premium,South,133.82,False
+483,Evelyn Martinez,customer483@example.com,2026-02-15 01:47:13,Email,Standard,North,246.98,True
+484,Steve Paul,customer484@example.com,2024-07-24 00:40:42,Referral,Premium,Central,116.8,True
+485,Jasmine Beltran,customer485@example.com,2024-09-25 09:20:38,Referral,Enterprise,North,23.84,False
+486,Jonathan Glass MD,customer486@example.com,2025-02-11 06:58:32,Paid Search,Standard,North,238.2,True
+487,Monica Miller,customer487@example.com,2025-03-21 01:02:21,Email,Premium,West,181.42,False
+488,Samantha Gardner,customer488@example.com,2026-04-13 12:35:10,Email,Standard,East,39.23,False
+489,Bobby Guerrero,customer489@example.com,2024-11-11 15:45:05,Paid Search,Standard,West,154.88,True
+490,Lance Simmons,customer490@example.com,2026-09-26 02:32:25,Organic,Standard,West,187.89,True
+491,Heather Williams,customer491@example.com,2024-03-30 22:53:24,Paid Search,Standard,West,46.68,True
+492,Heather Bolton,customer492@example.com,2024-03-26 11:36:56,Social,Premium,South,47.47,True
+493,William Gould,customer493@example.com,2024-01-18 15:10:52,Paid Search,Standard,East,140.29,True
+494,Mark Cox,customer494@example.com,2025-02-06 17:25:38,Paid Search,Standard,East,188.58,False
+495,Meghan Cisneros,customer495@example.com,2024-02-15 14:28:49,Social,Premium,East,140.49,True
+496,Lawrence Harrington,customer496@example.com,2026-06-14 19:07:57,Organic,Standard,Central,102.83,True
+497,Austin Osborne,customer497@example.com,2026-05-30 15:02:48,Paid Search,Standard,East,197.87,True
+498,James Bradley,customer498@example.com,2024-06-28 03:56:54,Paid Search,Premium,North,30.13,True
+499,Meghan Rush,customer499@example.com,2025-01-14 21:32:20,Organic,Standard,West,231.65,True
+500,Phillip Berry,customer500@example.com,2024-02-24 22:26:58,Email,Premium,West,71.64,True

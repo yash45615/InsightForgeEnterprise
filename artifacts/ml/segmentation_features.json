@@ -1,0 +1,14 @@
+[
+  "monthly_fee",
+  "transaction_count",
+  "completed_order_count",
+  "completed_revenue",
+  "average_transaction_amount",
+  "days_since_last_transaction",
+  "is_active_numeric",
+  "channel_Email",
+  "channel_Organic",
+  "channel_Paid Search",
+  "channel_Referral",
+  "channel_Social"
+]

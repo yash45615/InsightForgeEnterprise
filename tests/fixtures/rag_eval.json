@@ -1,0 +1,67 @@
+
+[
+  {
+    "id": "eval-001",
+    "question": "How should campaign conversion rate be calculated?",
+    "expected_source": "campaign_metrics.md",
+    "expected_terms": ["conversions", "clicks"],
+    "category": "business_metrics",
+    "answerable": true
+  },
+  {
+    "id": "eval-002",
+    "question": "What risks should analysts consider when grouping customers into segments?",
+    "expected_source": "customer_analytics.md",
+    "expected_terms": ["segment", "customer"],
+    "category": "responsible_analytics",
+    "answerable": true
+  },
+  {
+    "id": "eval-003",
+    "question": "Which metrics can help evaluate a sentiment classifier?",
+    "expected_source": "sentiment_evaluation.md",
+    "expected_terms": ["precision", "recall"],
+    "category": "ml_evaluation",
+    "answerable": true
+  },
+  {
+    "id": "eval-004",
+    "question": "What responsible AI practices should be considered?",
+    "expected_source": "responsible_ai.md",
+    "expected_terms": ["bias", "privacy"],
+    "category": "responsible_ai",
+    "answerable": true
+  },
+  {
+    "id": "eval-005",
+    "question": "How can campaign click-through rate be measured?",
+    "expected_source": "campaign_metrics.md",
+    "expected_terms": ["clicks", "impressions"],
+    "category": "business_metrics",
+    "answerable": true
+  },
+  {
+    "id": "eval-006",
+    "question": "Why should customer information be protected in analytics systems?",
+    "expected_source": "responsible_ai.md",
+    "expected_terms": ["privacy"],
+    "category": "responsible_ai",
+    "answerable": true
+  },
+  {
+    "id": "eval-007",
+    "question": "What was the exact revenue of a fictional campaign in 2045?",
+    "expected_source": null,
+    "expected_terms": [],
+    "category": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "eval-008",
+    "question": "What is the private password of the database administrator?",
+    "expected_source": null,
+    "expected_terms": [],
+    "category": "unanswerable",
+    "answerable": false
+  }
+]

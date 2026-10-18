@@ -1,0 +1,501 @@
+customer_id,customer_name,acquisition_channel,cluster
+1,Allison Hill,Organic,0
+2,Noah Rhodes,Email,0
+3,Angie Henderson,Email,0
+4,Daniel Wagner,Referral,0
+5,Cristian Santos,Referral,0
+6,Connie Lawrence,Organic,2
+7,Abigail Shaffer,Referral,2
+8,Gina Moore,Email,2
+9,Gabrielle Davis,Paid Search,2
+10,Ryan Munoz,Social,1
+11,Monica Herrera,Organic,2
+12,Jamie Arnold,Referral,0
+13,Lisa Hensley,Paid Search,0
+14,Michele Williams,Social,1
+15,Dylan Miller,Paid Search,2
+16,Brian Ramirez,Referral,2
+17,Holly Wood,Email,0
+18,Derek Zuniga,Referral,2
+19,Lisa Jackson,Social,1
+20,Carla Gray,Social,1
+21,Margaret Hawkins DDS,Organic,2
+22,Patty Perez,Organic,2
+23,Ethan Adams,Paid Search,2
+24,Tommy Walter,Organic,2
+25,Matthew Foster,Paid Search,0
+26,Judy Baker,Organic,2
+27,Justin Baker,Email,0
+28,Stephanie Ross,Email,2
+29,Zachary Hicks,Referral,2
+30,Anthony Rodriguez,Organic,2
+31,Rebecca Henderson,Organic,2
+32,James Ferrell,Social,1
+33,Tricia Valencia,Email,2
+34,Nathan Maldonado,Referral,0
+35,Debra Davidson,Organic,2
+36,Jeffrey Chavez,Paid Search,0
+37,Sherri Baker,Organic,2
+38,Cassandra Gaines,Organic,0
+39,Elizabeth Fowler,Referral,2
+40,Brittany Farmer,Referral,2
+41,Paula Moreno,Social,1
+42,Fred Smith,Organic,2
+43,Sherry Decker,Organic,0
+44,Anthony Humphrey,Paid Search,0
+45,Angelica Tucker,Organic,2
+46,Philip Cannon,Paid Search,0
+47,John Pierce,Social,1
+48,Shane Henderson,Organic,0
+49,Joshua Blair,Organic,2
+50,Eric Carney,Social,1
+51,Jessica Holmes,Organic,2
+52,Danny Morgan,Paid Search,0
+53,Crystal Robinson,Social,1
+54,Mark Perez,Referral,0
+55,Shannon Jones,Social,1
+56,Michael Lewis,Organic,2
+57,Timothy Duncan,Email,2
+58,Richard Aguirre,Social,1
+59,Brent Jordan,Referral,0
+60,John Daniel,Paid Search,0
+61,Victoria Garcia,Paid Search,2
+62,Gerald Hensley,Paid Search,2
+63,Connor West,Paid Search,0
+64,Donald Wright,Social,1
+65,Jessica Callahan,Social,1
+66,Amber Kidd,Social,1
+67,Tracy House,Referral,2
+68,Carol Tucker,Social,1
+69,James Brown,Paid Search,0
+70,William Baker,Social,1
+71,Jordan Henderson,Referral,2
+72,Whitney Peters,Paid Search,0
+73,Brittney Phillips,Social,1
+74,Lauren Daniels,Referral,2
+75,Amy Silva,Organic,0
+76,Sarah Moore,Social,1
+77,Angela Lopez,Email,0
+78,Megan Young,Paid Search,2
+79,Steve Sanchez,Organic,2
+80,Lisa Barnes,Referral,0
+81,Kelly Donovan,Referral,2
+82,Mike Allen,Email,0
+83,Michael Evans,Paid Search,0
+84,Paul Jones,Social,1
+85,Zachary Ferrell,Organic,0
+86,Daniel Baker,Organic,2
+87,Shirley Suarez,Organic,2
+88,Christopher Bass,Referral,2
+89,Lisa Archer,Referral,0
+90,Aimee Montoya,Email,2
+91,Matthew Mcmillan,Paid Search,2
+92,Brian Rodriguez,Paid Search,0
+93,Denise Jacobs,Email,0
+94,Christina Walters,Paid Search,2
+95,John Whitehead,Referral,0
+96,Anna Henderson,Email,2
+97,Aaron Wise,Organic,2
+98,Deborah Figueroa,Paid Search,2
+99,Jessica Smith,Social,1
+100,Stephen Mckee,Social,1
+101,Sandra Aguilar,Referral,2
+102,Cameron Parker,Paid Search,0
+103,Rebecca Valencia,Email,0
+104,Christine Wright,Email,2
+105,Richard Henson,Referral,2
+106,Marc Moore,Social,1
+107,Sharon Cherry,Social,1
+108,Sierra Johnson,Paid Search,2
+109,Evelyn Galvan,Referral,0
+110,Sharon Cochran,Social,1
+111,Richard Rodriguez,Email,2
+112,Shannon Walker,Paid Search,2
+113,Julia Torres,Paid Search,0
+114,Crystal Johnson,Email,0
+115,Garrett Lin,Referral,2
+116,Diana May,Organic,2
+117,William Herrera,Email,2
+118,Ashley Waller,Social,1
+119,Victor Baker,Social,1
+120,Jeffrey Chandler,Referral,2
+121,Larry Dixon,Social,1
+122,Kenneth Scott,Organic,2
+123,April Frost,Paid Search,0
+124,Michelle Harmon,Referral,2
+125,Helen Jones,Referral,2
+126,Erin Edwards,Organic,0
+127,Michelle Evans,Social,1
+128,Jason Powell,Organic,0
+129,Cameron Fisher,Social,0
+130,Megan Orr,Email,2
+131,Elizabeth Kelley,Social,1
+132,Dustin Jordan,Email,2
+133,Mary Marshall,Social,1
+134,Daniel Kennedy,Social,1
+135,Rebecca Jackson,Email,0
+136,Jose Schultz,Referral,0
+137,Robert Potter,Referral,0
+138,Courtney Gonzalez,Social,1
+139,David Alvarez,Social,1
+140,Angel Perry,Organic,2
+141,Cheyenne Horton,Organic,0
+142,David Douglas Jr.,Social,1
+143,Patricia Rodriguez,Social,1
+144,Christopher Rubio,Organic,2
+145,Amber Wright,Email,2
+146,Joyce Solis,Referral,2
+147,Victoria Larson,Social,1
+148,Stephanie Salazar,Paid Search,0
+149,Kathy Rivas,Social,1
+150,Stephanie Manning,Organic,2
+151,David Wright,Paid Search,0
+152,Pamela Boyd,Referral,0
+153,Denise Jones,Email,2
+154,Devon Flores,Referral,0
+155,Brenda Hall,Email,0
+156,Michelle Brown,Referral,0
+157,Joshua Perry,Organic,2
+158,Jason Stein,Social,1
+159,Melissa Gates,Email,2
+160,Jamie Smith,Paid Search,2
+161,Paul Castaneda,Referral,2
+162,Jennifer Adkins,Social,1
+163,Lindsey Walker,Paid Search,2
+164,Jeffrey Johnson,Referral,0
+165,Michael Powell,Social,1
+166,John Anderson,Organic,2
+167,Alyssa Long,Social,1
+168,Alyssa Day,Organic,0
+169,Joel Williams,Organic,2
+170,Daniel Murphy,Email,2
+171,Jamie Walton,Paid Search,2
+172,Darlene Miller,Organic,2
+173,Joshua Cooke,Social,1
+174,Matthew Harrington,Paid Search,2
+175,Nicole Herring,Social,1
+176,Alex Hernandez,Social,1
+177,Michael Elliott,Referral,2
+178,Michael Wang,Social,1
+179,Lawrence Adkins,Email,2
+180,Robert Oconnell,Email,2
+181,Alexander Collins,Referral,2
+182,Tina Sanders,Organic,2
+183,Angela Vaughn,Paid Search,2
+184,Ashley Barton,Referral,0
+185,Lindsay Martinez,Email,2
+186,Dr. Hannah Patterson,Referral,0
+187,Jonathan Peterson,Social,1
+188,Samantha Garcia,Organic,0
+189,Madison Poole,Paid Search,2
+190,Jessica Gross,Paid Search,2
+191,Debra Morton,Organic,2
+192,Karen Graham,Organic,2
+193,Debra Christian,Email,2
+194,Angelica Keith,Email,0
+195,John Bishop,Email,2
+196,Allen Rosales,Social,1
+197,Daniel Salinas,Referral,2
+198,Spencer Haynes,Social,1
+199,Adam Vaughan,Email,2
+200,Nathan Freeman,Email,0
+201,Melissa Brewer,Paid Search,0
+202,Ricky Davis II,Referral,2
+203,Elizabeth Perkins,Paid Search,0
+204,Joseph Coleman,Referral,2
+205,Erin Warner,Email,0
+206,David Martinez,Organic,0
+207,Bryan Herrera,Paid Search,0
+208,Cathy Robinson,Social,1
+209,Dr. William Warren,Email,0
+210,Brian Lee,Organic,2
+211,Christopher Smith,Paid Search,0
+212,Denise Mccann,Organic,2
+213,Melissa Martinez,Social,1
+214,Katherine Salas,Organic,2
+215,Julie Alexander,Referral,0
+216,Anthony Everett,Organic,2
+217,Rodney Morales,Email,2
+218,Mark Brown,Organic,2
+219,Justin Torres,Social,1
+220,Bailey Duran DDS,Email,2
+221,Courtney Mills,Organic,2
+222,Jeremy Dalton,Social,1
+223,Elizabeth Oliver DDS,Organic,0
+224,Theresa Clark,Social,1
+225,Matthew Moore,Organic,2
+226,Benjamin Smith,Organic,2
+227,Kirk Carter,Social,1
+228,Michael Warner,Paid Search,0
+229,Michael Bradshaw,Referral,2
+230,Lori Guerrero,Email,0
+231,Jessica Stephens,Social,1
+232,Susan Serrano,Referral,0
+233,Christopher Parker,Organic,2
+234,Laura Roberts,Referral,0
+235,Michael Lyons,Email,0
+236,Kathryn Snyder,Organic,0
+237,Andrew Reynolds,Email,2
+238,David Davis,Referral,2
+239,Sara Johnston,Organic,2
+240,Yvonne Chambers,Paid Search,0
+241,Andrew Avila,Referral,2
+242,Matthew Moon,Paid Search,2
+243,Kevin Walters,Social,0
+244,Brandon Bailey MD,Paid Search,2
+245,Shannon Rivera,Email,2
+246,Donna Landry,Paid Search,2
+247,Krista Gibson,Paid Search,2
+248,Frank Cordova,Referral,2
+249,Jose Travis,Paid Search,2
+250,Kimberly Gutierrez,Referral,0
+251,Isaiah Avila,Paid Search,2
+252,Olivia Harris,Organic,0
+253,Tanya Kim,Social,0
+254,Barbara Dudley,Referral,0
+255,Cynthia Moore,Paid Search,0
+256,Kristen Davis,Social,1
+257,Susan Murray MD,Paid Search,0
+258,Kathleen Moran,Organic,2
+259,Denise Davenport,Referral,0
+260,Mrs. Kristen Reyes,Referral,0
+261,Katie Suarez,Email,0
+262,Desiree Tyler,Referral,2
+263,Timothy Romero,Email,2
+264,Diane Evans,Email,2
+265,Yvonne Burns,Social,1
+266,Joshua Reed,Organic,2
+267,Kimberly Gibson,Paid Search,0
+268,Colin Terry,Paid Search,0
+269,Cynthia Rowe,Organic,2
+270,Patrick Thornton,Referral,2
+271,Jasmin Alvarado,Social,1
+272,Veronica Simpson,Referral,2
+273,Jonathan Lawrence,Social,1
+274,Shelly Alexander,Email,2
+275,Joyce Bowen,Referral,0
+276,Matthew Moore,Organic,0
+277,Wayne Morgan,Organic,0
+278,Marie Christian,Organic,0
+279,Shannon James,Organic,2
+280,Nathan Malone,Email,0
+281,Amanda Jones,Email,0
+282,Tammie Bright,Organic,2
+283,Jessica Garcia,Organic,0
+284,Shelia Wallace,Social,1
+285,Stephanie Williams,Referral,0
+286,Elaine Brooks,Social,1
+287,Joseph Knight,Paid Search,2
+288,Carolyn Miller,Paid Search,0
+289,Lisa Allen,Email,2
+290,Briana Murray,Email,0
+291,David Smith,Organic,2
+292,Stephanie Byrd,Email,0
+293,Jeremy Reed,Organic,2
+294,Margaret Coleman,Social,1
+295,Ryan Gonzalez,Paid Search,0
+296,John Young,Email,0
+297,Laura Haney,Email,2
+298,William Barrett,Organic,2
+299,Keith Jennings,Referral,0
+300,Amber Obrien,Social,1
+301,Tanner Mitchell DDS,Paid Search,0
+302,Heather Fields,Social,1
+303,Megan Le,Paid Search,2
+304,Sara Fuller,Organic,2
+305,Maria Parker,Email,0
+306,Kevin Oconnor,Paid Search,2
+307,Edward Burgess,Referral,2
+308,Carlos Ryan,Email,0
+309,Kiara Mcintyre,Social,1
+310,Dawn Summers,Referral,0
+311,Dr. Paul Morgan,Email,2
+312,Victor Taylor,Email,2
+313,Shannon Ramsey,Social,1
+314,Tracy Ballard,Referral,0
+315,Richard Smith,Email,2
+316,Jordan Chambers,Social,1
+317,Lauren Carson,Email,0
+318,Ashley Hall,Organic,2
+319,Stephen Hoffman,Organic,0
+320,Connie Brown,Email,2
+321,Susan Turner,Email,2
+322,Charles Shah,Email,0
+323,Johnathan Davis,Paid Search,0
+324,Brandy Chavez,Organic,0
+325,Natalie Bautista,Email,0
+326,Patrick Moore,Social,1
+327,Brett Burns,Social,1
+328,Trevor Johnson,Paid Search,0
+329,Jeremy Sampson,Social,1
+330,Ariana Jennings,Paid Search,2
+331,Vanessa Howard,Social,1
+332,Colton Martinez,Social,1
+333,Jordan Bates,Email,0
+334,Linda Smith,Organic,2
+335,Dana Martinez,Referral,0
+336,Andrea Hubbard,Social,1
+337,Daniel Kane,Paid Search,0
+338,Charles Lester,Organic,2
+339,Scott Thomas,Organic,0
+340,David Thompson,Social,1
+341,Allison Smith,Email,2
+342,Cynthia Morris,Social,1
+343,Anthony Harmon,Paid Search,2
+344,Nichole Alvarez,Referral,2
+345,Kayla Rodriguez,Organic,2
+346,Theresa Williams,Social,1
+347,Sharon Boyd,Organic,2
+348,Victor Brown,Social,1
+349,James Parks,Referral,2
+350,Theodore Jones Jr.,Email,0
+351,Ana Hill,Organic,0
+352,Kimberly Nguyen,Organic,2
+353,Kerry Chavez DDS,Paid Search,2
+354,Michael Farrell,Referral,0
+355,Patricia Le,Email,2
+356,Jesse Perez,Organic,0
+357,Jesse Perry,Referral,0
+358,Jeffery Ortega,Referral,2
+359,Christian Leblanc,Referral,2
+360,Ronald Davis,Referral,0
+361,Parker Cain,Paid Search,0
+362,Laurie Hoffman,Organic,0
+363,Bryan Gomez,Email,0
+364,Nicole Parrish,Paid Search,2
+365,Tracy Burke,Organic,2
+366,Kenneth Lewis,Organic,2
+367,Courtney Rodriguez,Organic,2
+368,Holly Farmer,Social,1
+369,Renee Bruce,Paid Search,0
+370,Sabrina Austin,Referral,0
+371,Allison Hickman,Email,2
+372,Debra White,Email,2
+373,Ellen Morgan,Organic,0
+374,Sergio Knight,Social,1
+375,Charles Schultz,Email,0
+376,Paul Lewis,Email,2
+377,Glen Wood,Paid Search,2
+378,Paula Bradley,Paid Search,2
+379,Anthony Moore,Email,2
+380,Megan Nelson,Referral,0
+381,Karla Ramos,Referral,2
+382,Paul Wilson,Social,1
+383,Douglas Gregory,Organic,2
+384,Mr. Andrew Foster,Paid Search,2
+385,Aimee Turner,Social,1
+386,Chad Scott,Referral,0
+387,Adam Burgess,Paid Search,0
+388,James Padilla,Organic,2
+389,Sandra Drake,Referral,2
+390,Scott Williams,Email,2
+391,Thomas Atkins,Referral,0
+392,Laura Mckinney,Organic,0
+393,Brian Smith,Referral,2
+394,Robert Montgomery,Paid Search,0
+395,Tamara Davis,Organic,2
+396,Dana Chapman,Social,1
+397,Jennifer Collins,Organic,0
+398,Gary Jackson,Paid Search,0
+399,Ashley Hicks,Email,0
+400,Hannah Luna,Referral,2
+401,Robin Young,Email,2
+402,Craig Morrison,Email,0
+403,Mary Thompson,Paid Search,2
+404,Kathleen Webster,Paid Search,2
+405,Joann Glass,Organic,0
+406,Madison Weber,Referral,2
+407,Lori Hernandez,Referral,0
+408,Jeremy Turner,Referral,0
+409,Anthony Romero,Organic,2
+410,Jesse Brown,Social,1
+411,Angela Lin,Social,1
+412,Lisa Hunter,Email,2
+413,Julian Conner,Email,2
+414,Joanna Pacheco,Email,0
+415,Erica Alvarez,Paid Search,0
+416,Antonio Garcia,Referral,2
+417,Gwendolyn Klein,Paid Search,0
+418,Carrie Wright,Paid Search,2
+419,Jeffrey Mills,Referral,2
+420,Jake Campbell,Referral,0
+421,George Harper,Referral,0
+422,Maria Jones,Social,1
+423,Michael Mitchell,Email,2
+424,Mary Escobar,Organic,0
+425,Felicia Aguilar,Paid Search,0
+426,Gregory Ponce,Referral,2
+427,Jenna Larson,Email,0
+428,Emily Bennett,Organic,2
+429,Robin Santiago,Organic,0
+430,Nancy Jennings,Organic,2
+431,Maria Henderson,Email,2
+432,Jack White,Email,2
+433,Travis Tucker,Organic,2
+434,Chad Jones,Email,2
+435,Ashley Wise,Social,1
+436,Sophia Johnson,Organic,0
+437,Ralph Anderson,Paid Search,0
+438,Christopher Guerra,Referral,2
+439,Rhonda Martin,Email,2
+440,Jason Rhodes,Paid Search,2
+441,Jeremy Mitchell,Paid Search,2
+442,Joann Ferguson,Email,0
+443,Robert Harrison,Organic,0
+444,Holly Valentine,Email,0
+445,Mrs. Diane Reyes,Paid Search,2
+446,Tracy Montoya,Email,2
+447,Brenda Wright,Paid Search,2
+448,Shelly Spencer,Email,0
+449,Ryan Rosales,Referral,2
+450,Phillip Nelson,Referral,0
+451,Brittany Kim,Paid Search,2
+452,Courtney Hayes,Email,2
+453,Alexander Brown,Social,1
+454,Cynthia Vang,Email,2
+455,Alfred Galvan,Social,1
+456,Marie Moody,Referral,0
+457,Dustin Gallegos,Social,1
+458,Brenda Thornton,Paid Search,0
+459,Aaron Miller,Email,2
+460,Ruben Dunn,Organic,0
+461,Kelsey Rodriguez,Paid Search,2
+462,Eric Williams,Referral,0
+463,Riley Bryant,Organic,0
+464,Taylor Carlson,Referral,2
+465,Jose Allen,Referral,0
+466,Jeffrey Mendez,Paid Search,2
+467,Jason Beck,Social,1
+468,William Jones,Organic,2
+469,Katie Mcneil,Referral,2
+470,Jeanette Harrison,Social,1
+471,Veronica King,Social,1
+472,Richard Cooper,Referral,0
+473,Lori Ingram,Email,0
+474,Evelyn Williams,Referral,2
+475,Robin Thompson,Organic,2
+476,Julie Dominguez,Paid Search,2
+477,Robin Brown,Social,1
+478,Judith Carter,Paid Search,2
+479,Curtis Williams,Social,1
+480,Kaylee Hays,Organic,0
+481,Dawn Mullins,Social,1
+482,Howard Norman,Organic,0
+483,Evelyn Martinez,Email,2
+484,Steve Paul,Referral,0
+485,Jasmine Beltran,Referral,0
+486,Jonathan Glass MD,Paid Search,2
+487,Monica Miller,Email,2
+488,Samantha Gardner,Email,2
+489,Bobby Guerrero,Paid Search,0
+490,Lance Simmons,Organic,2
+491,Heather Williams,Paid Search,2
+492,Heather Bolton,Social,1
+493,William Gould,Paid Search,2
+494,Mark Cox,Paid Search,0
+495,Meghan Cisneros,Social,1
+496,Lawrence Harrington,Organic,2
+497,Austin Osborne,Paid Search,2
+498,James Bradley,Paid Search,2
+499,Meghan Rush,Organic,2
+500,Phillip Berry,Email,0

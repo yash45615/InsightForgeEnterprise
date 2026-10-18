@@ -1,0 +1,52 @@
+{
+  "evaluation_cases": 4,
+  "hit_rate_at_3": 1.0,
+  "mean_reciprocal_rank": 1.0,
+  "note": "Small, hand-authored smoke-test set; results are not a general guarantee of retrieval quality.",
+  "details": [
+    {
+      "query": "How do we calculate click-through rate?",
+      "expected_source": "campaign_metrics.md",
+      "retrieved_sources": [
+        "campaign_metrics.md",
+        "customer_analytics.md",
+        "sentiment_evaluation.md"
+      ],
+      "expected_source_rank": 1,
+      "hit_at_3": true
+    },
+    {
+      "query": "Why is future information leakage a problem in churn prediction?",
+      "expected_source": "customer_analytics.md",
+      "retrieved_sources": [
+        "customer_analytics.md",
+        "customer_analytics.md",
+        "responsible_ai.md"
+      ],
+      "expected_source_rank": 1,
+      "hit_at_3": true
+    },
+    {
+      "query": "What do macro F1 and a confusion matrix tell us?",
+      "expected_source": "sentiment_evaluation.md",
+      "retrieved_sources": [
+        "sentiment_evaluation.md",
+        "sentiment_evaluation.md",
+        "responsible_ai.md"
+      ],
+      "expected_source_rank": 1,
+      "hit_at_3": true
+    },
+    {
+      "query": "What should happen when retrieved evidence does not support an answer?",
+      "expected_source": "responsible_ai.md",
+      "retrieved_sources": [
+        "responsible_ai.md",
+        "campaign_metrics.md",
+        "sentiment_evaluation.md"
+      ],
+      "expected_source_rank": 1,
+      "hit_at_3": true
+    }
+  ]
+}
